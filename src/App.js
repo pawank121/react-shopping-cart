@@ -12,7 +12,7 @@ function App() {
       </main>
       <footer>
         All rights is reserved.
-      </footer>
+       </footer>
     </div>
   );
 }
