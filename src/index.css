@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -12,9 +14,10 @@ body,
 body,
 input,
 select,
+button,
 textarea {
     font-size: 1.6rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
 .grid-container {
@@ -27,6 +30,10 @@ textarea {
 
 a:hover {
     color: #ff8000;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
@@ -117,10 +124,10 @@ footer {
     border: 0.1rem #c0c0c0 solid;
     background-color: #f0f0f0;
     cursor: pointer;
-} 
+}
 
 .button:hover {
-    border: 0.1rem solid #808080 solid;
+    border: 0.1rem #808080 solid;
 }
 
 .button.primary {
