@@ -133,3 +133,71 @@ footer {
 .button.primary {
     background-color: #f0c040;
 }
+
+/*Filter*/
+.filter {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    border-bottom: 0.1rem #c0c0c0 solid;
+    justify-content: space-between;
+}
+
+.filter div {
+    flex: 1;
+}
+
+/* cart */
+
+.cart {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+}
+
+.cart-header {
+    border-bottom: 0.1rem solid #c0c0c0;
+}
+
+/* cart items */
+.cart-items {
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.cart-items li {
+    display: flex;
+}
+
+.cart-items img {
+    width: 5rem;
+}
+
+.cart-items div {
+    padding: 0.5rem;
+}
+
+.cart-items li dev:last-child {
+    flex: 1;
+}
+
+.right {
+    text-align: right;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.total > div {
+    font-size: 2rem;
+}
+
+.total > div,
+.total > button {
+    float: 1;
+}
